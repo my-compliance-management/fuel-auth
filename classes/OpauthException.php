@@ -12,8 +12,4 @@
 
 namespace Auth;
 
-class SimpleUserUpdateException extends \FuelException {}
-
-class SimpleUserWrongPassword extends \FuelException {}
-
 class OpauthException extends \FuelException {}
